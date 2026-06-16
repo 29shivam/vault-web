@@ -171,12 +171,15 @@
         - 📄 [CreateGroupFromChatsRequest.ts](frontend/src/app/models/dtos/CreateGroupFromChatsRequest.ts)
         - 📄 [DeviceDto.ts](frontend/src/app/models/dtos/DeviceDto.ts)
         - 📄 [FileDto.ts](frontend/src/app/models/dtos/FileDto.ts)
+        - 📄 [FolderContentItemDto.ts](frontend/src/app/models/dtos/FolderContentItemDto.ts)
         - 📄 [FolderDto.ts](frontend/src/app/models/dtos/FolderDto.ts)
         - 📄 [FolderListItemDto.ts](frontend/src/app/models/dtos/FolderListItemDto.ts)
+        - 📄 [PageResponseDto.ts](frontend/src/app/models/dtos/PageResponseDto.ts)
         - 📄 [PasswordEntryCreateRequestDto.ts](frontend/src/app/models/dtos/PasswordEntryCreateRequestDto.ts)
         - 📄 [PasswordEntryDto.ts](frontend/src/app/models/dtos/PasswordEntryDto.ts)
         - 📄 [PasswordRevealResponseDto.ts](frontend/src/app/models/dtos/PasswordRevealResponseDto.ts)
         - 📄 [PrivateChatDto.ts](frontend/src/app/models/dtos/PrivateChatDto.ts)
+        - 📄 [TrashEntryDto.ts](frontend/src/app/models/dtos/TrashEntryDto.ts)
         - 📄 [UserDashboardDto.ts](frontend/src/app/models/dtos/UserDashboardDto.ts)
         - 📄 [UserDto.ts](frontend/src/app/models/dtos/UserDto.ts)
     - 📁 **navbar**
@@ -188,6 +191,10 @@
         - 📄 [cloud.component.html](frontend/src/app/pages/cloud/cloud.component.html)
         - 📄 [cloud.component.scss](frontend/src/app/pages/cloud/cloud.component.scss)
         - 📄 [cloud.component.ts](frontend/src/app/pages/cloud/cloud.component.ts)
+        - 📁 **trash**
+          - 📄 [trash.component.html](frontend/src/app/pages/cloud/trash/trash.component.html)
+          - 📄 [trash.component.scss](frontend/src/app/pages/cloud/trash/trash.component.scss)
+          - 📄 [trash.component.ts](frontend/src/app/pages/cloud/trash/trash.component.ts)
       - 📁 **dashboard**
         - 📄 [dashboard.component.html](frontend/src/app/pages/dashboard/dashboard.component.html)
         - 📄 [dashboard.component.scss](frontend/src/app/pages/dashboard/dashboard.component.scss)
@@ -200,6 +207,9 @@
         - 📄 [login.component.html](frontend/src/app/pages/login/login.component.html)
         - 📄 [login.component.scss](frontend/src/app/pages/login/login.component.scss)
         - 📄 [login.component.ts](frontend/src/app/pages/login/login.component.ts)
+      - 📁 **not-found**
+        - 📄 [not-found.component.html](frontend/src/app/pages/not-found/not-found.component.html)
+        - 📄 [not-found.component.ts](frontend/src/app/pages/not-found/not-found.component.ts)
       - 📁 **password-manager**
         - 📄 [password-manager.component.html](frontend/src/app/pages/password-manager/password-manager.component.html)
         - 📄 [password-manager.component.scss](frontend/src/app/pages/password-manager/password-manager.component.scss)
@@ -212,6 +222,9 @@
         - 📄 [register.component.html](frontend/src/app/pages/register/register.component.html)
         - 📄 [register.component.scss](frontend/src/app/pages/register/register.component.scss)
         - 📄 [register.component.ts](frontend/src/app/pages/register/register.component.ts)
+      - 📁 **server-error**
+        - 📄 [server-error.component.html](frontend/src/app/pages/server-error/server-error.component.html)
+        - 📄 [server-error.component.ts](frontend/src/app/pages/server-error/server-error.component.ts)
     - 📁 **services**
       - 📄 [auth.service.ts](frontend/src/app/services/auth.service.ts)
       - 📄 [cloud.service.ts](frontend/src/app/services/cloud.service.ts)
